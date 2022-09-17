@@ -1,6 +1,5 @@
 ﻿Console.Clear();
-Console.WriteLine("Texto a ser traduzido: ");
-Console.WriteLine();
+Console.WriteLine("Texto a ser traduzido: \n");
 
 string texto = Console.ReadLine()!;
 string leet = texto.Replace("a","4")
@@ -43,7 +42,5 @@ Console.Clear();
 Console.ForegroundColor = ConsoleColor.DarkGreen;
 Console.WriteLine("Texto em LEET:");
 Console.ResetColor();
-Console.WriteLine();
 
-Console.WriteLine($"{leet}");
-Console.WriteLine();
+Console.WriteLine($"\n{leet}\n");
